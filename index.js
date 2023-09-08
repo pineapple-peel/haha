@@ -55,7 +55,7 @@ app.get("/404", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "404.html"));
 });
 
-app.get("/404", (req, res) => {
+app.get("/gravity", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "gravity.html"));
 });
 
