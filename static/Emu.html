@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Classes</title>
+  <link href="assets/images/branding/favicon/favicon.png" rel="icon" type="image/x-icon" />
+  <!-- Main Scripts-->
+  <script src="resources/js/go.js"></script>
+  <script src="./uv/uv.bundle.js"></script>
+  <script src="./uv/uv.config.js"></script>
+  <script src="resources/js/index.js"></script>
+  <script src="resources/js/visit.js"></script>
+  <!-- Extra Scripts-->
+  <script src="assets/js/panic.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="/assets/js/themecontrol.js"></script>
+  <link href="assets/css/settings/main.css" rel="stylesheet" />
+  <link href="assets/css/nav.css" rel="stylesheet" />
+  <link href="assets/css/apps.css" rel="stylesheet" />
+  <link rel="stylesheet" href="resources/css/main.css">
+</head>
+
+<body>
+  <!-- Nav Bar Start-->
+  <div class="header2">
+    <br>
+    <a href="/../" class="logo">Dino nuggeteers</a>
+    <div class="header2-right">
+      <a href="photography">Proxy</a>
+      <a href="nature">Games</a>
+      <a href="bio-1">Emu</a>
+      <a href="ocean">Apps</a>
+      <a href="forest">Chatroom</a>
+      <a href="settings">Settings</a>
+      <a href="gravity">Dino</a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Nav Bar End-->
+  <br>
+  <div>
+    <input class="searchbar" id="searchbar" name="search" onkeyup="search_animal()" placeholder="Search.."
+      tag="searchbar" type="text" />
+  </div>
+  <script>
+    const searchbar = document.getElementById("searchbar");
+    searchbar.addEventListener("input", function () {
+      if (searchbar.value === '') {
+        // Code to execute if input field is empty
+        searchbar.style.width = "25%";
+        searchbar.style.height = "60px";
+      } else {
+        // Code to execute if input field is not empty
+        searchbar.style.width = "70%";
+        searchbar.style.height = "60px";
+      }
+    });
+  </script>
+  <br>
+  <br>
+  <h2> Games shown on this website are the property of their respective owners. </h2>
+  <!-- Advertisement Start-->
+  <!-- Advertisement End-->
+  <br>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a class="game" onclick="go('https://forms.gle/78QNSSj1pr4b5pZq7')">
+          <img loading="lazy" src="/assets/images/icons/request.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> Request A Emu! </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2017/03/batman-forever-snes.html')">
+          <img loading="lazy" src="/assets/images/icons/SNES.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> Batman Forever SNES</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2020/02/mario-kart-nds.html')">
+          <img loading="lazy" src="/assets/images/icons/NDS.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> Mario-Kart NDS</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2017/03/kirby-super-star-snes.html')">
+          <img loading="lazy" src="/assets/images/icons/SNES.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> kirby superstar SNES</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2018/09/kirby-nintendo-64.html')">
+          <img loading="lazy" src="/assets/images/icons/N64.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> kirby 64 N64</p3>
+      </div>
+    </div>
+  </div>
+   <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2017/10/the-legend-of-zelda-majora-mask.html')">
+          <img loading="lazy" src="/assets/images/icons/N64.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> zelda majora mask</p3>
+      </div>
+    </div>
+  </div>
+   <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2019/04/harry-potter-and-sorcerer-stone-ps1.html')">
+          <img loading="lazy" src="/assets/images/icons/PS1.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> HP sorcerers stone ps1</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://www.retrogames.onl/2019/04/harry-potter-and-chamber-of-secrets-ps1.html')">
+          <img loading="lazy" src="/assets/images/icons/PS1.jfif" style="border-radius: 25px;" />
+        </a>
+        <p3> HP chamber secrets ps1</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://browncha023.github.io/GBA/')">
+          <img loading="lazy" src="/assets/images/icons/gba.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> GBA Games </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://cattn.github.io/gba/')">
+          <img loading="lazy" src="/assets/images/icons/gba.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> GBA Games 2 </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a
+          onclick="go('https://static.arcadespot.com/retroemulator.php?system=n64&amp;game=2017/06/mario-kart-64.zip')">
+          <img loading="lazy" src="/assets/images/icons/mario-kart-64.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> Mario Kart 64 </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://play.pokemonshowdown.com')">
+          <img loading="lazy" src="/assets/images/icons/showdown.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> Pokemon Showdown </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://browncha023.github.io/GBA/launcher.html#pokemonlp')">
+          <img loading="lazy" src="/assets/images/icons/lp.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> PM: Light Platinum </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a class="game" onclick="go('https://binbashbanana.github.io/webretro/')">
+          <img loading="lazy" src="/assets/images/icons/retroarch.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> Retro Arch </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://f.kbhgames.com/r/n64/game.php?file=32112_super-mario-64-usa.zip')">
+          <img loading="lazy" src="/assets/images/icons/sm64.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> Super Mario 64 </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://browncha023.github.io/GBA/launcher.html#thps2')">
+          <img loading="lazy" src="/assets/images/icons/thps2.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> TH's Pro Skater 2 </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://browncha023.github.io/GBA/launcher.html#thps3')">
+          <img loading="lazy" src="/assets/images/icons/thps3.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> TH's Pro Skater 3 </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy" style="padding-top: 5px;">
+        <a onclick="go('https://browncha023.github.io/GBA/launcher.html#thps4')">
+          <img loading="lazy" src="/assets/images/icons/thps4.webp" style="border-radius: 25px;" />
+        </a>
+        <p3> TH's Pro Skater 4 </p3>
+      </div>
+    </div>
+  </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-WKJQ5QHQTJ');
+    </script>
+    <script>
+      function load() {
+        alert('This game takes a while to load, It is working though!');
+      }
+
+      function mouse() {
+        alert('This game only works with a mouse.');
+      }
+
+      function ab() {
+        alert('This game does not work in about:blank.');
+      }
+
+      function gfn() {
+        alert('Geforce NOW is currently having some issues for some users, we are aware of this issue and are working to fix it.')
+      }
+    </script>
+  </body>
+</html>
