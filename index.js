@@ -59,6 +59,10 @@ app.get("/gravity", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "gravity.html"));
 });
 
+app.get("/bio-1", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "bio-1.html"));
+});
+
 app.get("/*", (req, res) => {
   res.redirect("/404");
 });
